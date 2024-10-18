@@ -1,0 +1,227 @@
+.Booking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin-top: 2%;
+    background-color: #fff;
+}
+
+.reservation {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-image {
+    width: 50%;
+    object-fit: cover;
+}
+
+.reservation-form {
+    background-color: #0B132B;
+    color: #fff;
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reservation-form h2 {
+    font-size: 18px;
+    color: #f0a500;
+    margin-bottom: 10px;
+}
+
+.reservation-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+    width: 96%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+.book-now-button {
+    width: 99%;
+    padding: 12px;
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e09e00;
+}
+
+
+
+/* Team Section */
+.team-section {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.team-section h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #f0a500;
+    margin-top: 5%;
+}
+
+.team-section h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0B132B;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-20px);
+}
+
+.team-img {
+    width: 65%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.team-card h3 {
+    font-size: 20px;
+    color: #0B132B;
+    margin-bottom: 5px;
+}
+
+.team-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: -14px;
+}
+
+/*Testimonial */
+.testimonial {
+    padding: 50px;
+    background-color: #e9f6ff;
+}
+
+.testimonial h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #f0a500;
+    margin-bottom: 5px;
+}
+
+.testimonial h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0B132B;
+}
+
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    background-color: #f0a500;
+}
+
+
+.quote-icon {
+    font-size: 30px;
+    color: #f0a500;
+    margin-bottom: 10px;
+}
+
+
+.testimonial-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.client {
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.client-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.client h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    color: #0B132B;
+}
+
+.client p {
+    font-size: 12px;
+    margin: 0;
+    color: #666;
+}
+
